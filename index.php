@@ -5,34 +5,65 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Microsoft</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <title>Cosas de tatuajes</title>
   <link rel="icon" href=".//images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href=".//css/styles.css">
   <script src=".//js/carousel.js" defer></script>
 </head>
 
+<!-- Menu en parte posterior -->
+
 <body>
-  <!-- Menu en parte posterior -->
-  <nav class="menu">
-    <div>
-      <a href="https://www.microsoft.com/es-mx/">
-        <img src=".//images/RE1Mu3b.png" class="logo-ancla">
-      </a>
-      <a href="https://www.microsoft.com/es-mx/microsoft-365?rtc=1" class="opcion-menu">Microsoft 365</a>
-      <a href="https://www.microsoft.com/es-mx/microsoft-teams/group-chat-software?rtc=1" class="opcion-menu">Teams</a>
-      <a href="https://www.microsoft.com/es-mx/windows" class="opcion-menu">.</a>
-      <a href="https://www.microsoft.com/en-us/surface" class="opcion-menu">.</a>
-      <a href="https://www.xbox.com/es-MX/" class="opcion-menu">.</a>
-      <a href="Historia.html" class="opcion-menu">.</a>
-      <a href="https://support.microsoft.com/es-es" class="opcion-menu">.</a>
+
+  <!-- Navbar (Barra de Navegação) -->
+  <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+    <div class="container">
+
+      <!-- header -->
+      <div class="navbar-header">
+
+        <!-- botão toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+          <span class="sr-only">alternar navegação</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+
+        <!-- logo-barra -->
+        <a href="index.html" class="navbar-brand">
+          <span class="img-logo">SpotiMaya</span>
+        </a>
+      </div>
+
+      <!-- navbar -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="">Premium</a></li>
+          <li><a href="">Ajuda</a></li>
+          <li><a href="">Baixar</a></li>
+
+          <li class="divisor" role="separator"></li>
+
+          <li><a href="">Inscreva-se</a></li>
+          <li><a href="">Entrar</a></li>
+        </ul>
+      </div>
+
+    </div><!-- /Container -->
+  </nav> <!-- /Nav -->
+
+  <!-- capa -->
+  <div class="capa">
+    <div class="texto-capa">
+      <h1>Música para todos</h1>
+      <a href="#" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify Free</a>
+      <a href="#" class="btn btn-lg btn-custom btn-branco">Obter o Spotify Free</a>
+
     </div>
-    <div>
-      <a href="" class="opcion-menu">.</a>
-      <a href="" class="opcion-menu">.</a>
-      <a href="" class="opcion-menu">.</a>
-      <a href="" class="opcion-menu">.</a>
-    </div>
-  </nav>
+  </div>
   <!-- ------------------------------------------------------------------------------------------------------------ -->
 
   <!--Carrusel de fotos-->

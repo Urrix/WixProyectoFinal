@@ -1,11 +1,7 @@
-body {  
-    margin-left: 20px;
-    margin-right: 20px;
-    background: white;
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    
+   background: url('/WixProyectoFinal/images/Tattoo.jpg'),
 }
-
 /* Menu en barra superior */
 .logo-ancla {
     width: 28%;
